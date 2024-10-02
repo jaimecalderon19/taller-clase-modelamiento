@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const inquirer = require('inquirer');
 const servicios = require('./servicios');
 
-const mongUri = process.env.DB_URL
+const mongUri = process.env.DB_URI
 const mongDatabase = process.env.DB_NAME
 
 // Conexión a MongoDB
